@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="Docs\Diseño_Y_Arquitectura.md" />
+  </ItemGroup>
+
 </Project>
