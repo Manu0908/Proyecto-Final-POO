@@ -9,9 +9,8 @@ Este documento presenta la arquitectura lógica del sistema de análisis de clie
 Como equipo, declaramos de forma transparente y honesta que hemos utilizado herramientas de Inteligencia Artificial durante la concepción de este proyecto para los siguientes fines:
 *   **Comprensión de conceptos avanzados**: Explicación detallada y comparación práctica de patrones de diseño (Factory y Strategy) y estilo de codificación en C#.
 *   **Organización de la información**: Transformación y formateo de nuestras notas iniciales en una estructura de documentación coherente y profesional.
-*   **Refinamiento y detección de inconsistencias**: Identificación de duplicados en atributos de las clases originales y validación de las reglas de negocio respecto al modelo lógico.
 
-Las **decisiones esenciales de negocio, arquitectura y flujo del software** fueron analizadas y aprobadas por los tres integrantes del equipo para asegurar que el sistema se alinee con las clases del Ingeniero Galvis.
+Las **decisiones esenciales de negocio, arquitectura y flujo del software** fueron analizadas y aprobadas por los tres integrantes del equipo para asegurar que el sistema se alinee con las enseñanzas y buenas practicas vistas en clase.
 
 ---
 

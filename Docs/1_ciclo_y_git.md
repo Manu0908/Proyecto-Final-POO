@@ -4,7 +4,7 @@ Este documento describe las fases del ciclo de vida del proyecto y proporciona u
 
 ---
 
-## 1. Ciclo de Desarrollo (Metodología del Ingeniero Galvis)
+## 1. Ciclo de Desarrollo
 
 Siguiendo el ciclo de desarrollo enseñado en clase, estructuramos nuestro trabajo en las siguientes fases ordenadas:
 

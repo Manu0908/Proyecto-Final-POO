@@ -53,21 +53,10 @@ public class Producto
 }
 ```
 
-### C. Uso del Tipado Implícito (`var`)
-Se recomienda usar `var` cuando el tipo de la variable sea evidente en el lado derecho de la asignación. Esto mantiene el código conciso sin perder claridad:
-```csharp
-// Correcto
-var clientes = new List<Cliente>(); // Evidente
-var lector = LectorFactory.ObtenerLector("json"); // Evidente
-
-// Evitar cuando no es evidente o afecta la legibilidad
-decimal total = CalcularTotalPedido(); // Preferir el tipo explícito para mayor claridad
-```
-
-### D. Una Clase por Archivo
+### C. Una Clase por Archivo
 Cada clase, interfaz o enum debe estar definido en su propio archivo `.cs` cuyo nombre coincida exactamente con el nombre de la entidad (ejemplo: `Cliente.cs`, `IExporterReporte.cs`). No se deben agrupar múltiples clases en un único archivo.
 
-### E. Propiedades Auto-Implementadas vs. Campos Privados
+### D. Propiedades Auto-Implementadas vs. Campos Privados
 Para encapsular atributos de forma limpia, usar propiedades auto-implementadas cuando no se necesite lógica adicional en el `get` o `set`, y campos privados (`_campo`) solo cuando haya lógica de respaldo o encapsulación interna:
 ```csharp
 // Para atributos públicos simples:
